@@ -1,0 +1,12 @@
+<?xml version="1.0"?>   
+<layout version="0.1.0">   
+  <mageoptimize_index_index>   
+    <reference name="root">   
+      <action method="setTemplate"><template>page/1column.phtml</template></action>   
+    </reference>   
+    <reference name="content">   
+      <block type="mageoptimize/index" name="mageoptimize_index" template="mageoptimize/index.phtml"/>   
+    </reference>   
+  </mageoptimize_index_index>   
+</layout>   
+	
